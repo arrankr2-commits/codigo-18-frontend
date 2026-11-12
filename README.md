@@ -12,3 +12,6 @@ feat: feature(nueva funcionalidad)
 fix: (reparar algo)
 chore:(cosas repetitivas)
 styles:(modifico la apariencia de la web)
+
+## comando para verificar el nombre de usario y correo
+git config --list 
