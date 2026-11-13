@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+nav {
+    border: solid red ;
+    display: flex;
+    justify-content: space-between; /*separa elementos de extremo a extremo*/
+    background-color: rgba(123, 74, 226, 0.5);
+    margin: 30px 80px;
+}
+
+.nav-list {
+    border:solid blue;
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.nav-list > li > a {
+    text-decoration: none;
+    color:white;
+}
