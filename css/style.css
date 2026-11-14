@@ -74,8 +74,8 @@ main {
 }
 
 .container-profile > img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
@@ -121,12 +121,53 @@ main {
     border-radius: 16px;
 }
 
+.container-cards > div:nth-child(2) {
+    background-color: rgba(123, 74, 226, 0.1);
+    border:none;
+}
+
 .container-cards > div >p {
     font-weight: 300;
     margin-top: 10px;
 }
 
 .container-cards > div >h5 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container-exp {
+    background-color: rgba(123, 74, 226, 0.1);
+    color:#7b4ae2;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;  
+    gap: 70px;
+    width:858px;
+    margin:auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container-exp > div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+    height: 100px;
+    border-radius: 16px;
+}
+
+.container-exp > div >p {
+    font-weight: 300;
+    margin-top: 10px;
+    color:rgba(123, 74, 226, 0.7);
+}
+
+.container-exp > div >h5 {
     font-size: 32px;
     font-weight: bold;
 }
